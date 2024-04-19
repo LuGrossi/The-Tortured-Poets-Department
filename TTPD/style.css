@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu{
+    display: none;
+}
+
+.section-content{
+    text-align: center;
+}
+
+.section-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #BFBBB4;
+    font-family: "Caveat", cursive;
+    margin-bottom: 35px;
+}
+
+.section-content p{
+    font-size: 16px;  
+    color: #BFBBB4;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #c0764e;
+    color:  #f7f3ed;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.coffe{
+    padding: 100px 0;
+    background-color: #736A63;
+    position: relative;
+}
+
+.coffe-content{
+    text-align: center;
+}
+
+.coffe-content h2{
+    
+    font-size: 55px;
+    line-height: 70px;
+    color: #26231F;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #26231F;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.coffe-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.coffe-1{
+    padding: 0 25px;
+}
+
+.coffe-1 img{
+    width: 200px;
+}
+
+.coffe-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.coffe-1 h3{
+    color: #26231F;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.1)),
+        url(img/bg2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.services-content{
+    text-align: center;
+}
+
+.services-content h2{
+    font-family: "Caveat", cursive;
+    font-size: 80px;
+    line-height: 70px;
+    color: #BFBBB4;
+    margin-bottom: 50px;
+}
+
+.services-content p{
+    font-size: 16px;
+    color: #BFBBB4;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1{
+    padding: 0 100px;
+}
+
+.services-1 img{
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3{
+    color: #26231F;
+    font-size: 18px;
+}
+
+.general{
+    display: flex;
+}
+
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #BFBBB4;
+}
+
+.general-2{
+    background-image: url(img/g2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3{
+    background-image: url(img/g1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #26231F;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: #26231F;
+    margin: 25px 0 45px 0;
+}
+
+.blog{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1{
+    padding: 15px 55px;
+}
+
+.blog-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3{
+    font-size: 25px;
+    color: #26231F;
+}
+.form{
+    width: 350px;
+    background-color: #BFBBB4;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.contenedor{
+    background-color: #BFBBB4;
+    width: 410px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+.contenedor p{
+    font-size: 15px;
+}
+
+.contenedor .text{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contenedor .form{
+    margin-top: -20px;
+}
+
+.contenedor form .data{
+    height: 100%;
+    width: 100%;
+    margin: 40px 0;
+}
+
+form .data input{
+    font-size: 18px;
+}
+
+form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+}
+
+form .btn .inner{
+    margin: 30px;
+    height: 45px;
+    width: 100%;
+}
+
+form .btn .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+}
+/* Acá empezaría el footer */
+
+@media(max-width:991px){
+
+    .menu{
+        padding: 3opx;
+    }
+
+    .label{
+        display: initial;
+    }
+
+    .section{
+        min-height: 0vh;
+    }
+
+    .section-content{
+        padding: 100px 30px;
+    }
+
+    .section-content p{
+        padding: 0;
+    }
+
+    .coffe{
+        padding: 30px;
+    }
+
+    .coffe-content h2{
+        padding: 0;
+    }
+
+    .txt-p{
+        padding: 0;
+    }
+
+    .coffe-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .coffe-img{
+        display: none;
+    }
+
+    .services{
+        padding-left: 30px;
+    }
+
+    .services-content p{
+        padding: 0;
+    }
+
+    .services-group{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .services-1{
+        margin-bottom: 25px;
+    }
+
+    .general{
+        flex-direction: column;
+    }
+
+    .general-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2, .general-3{
+        display: none;
+    }
+
+    .blog{
+        pad: 30px;
+    }
+
+    .blog-content{
+        flex-direction: column;
+    }
+
+    .blog-1{
+        padding: 0;
+        background-color: #BFBBB4;
+    }
+
+}
